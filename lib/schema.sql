@@ -7,9 +7,9 @@ create table characters(
 
 create table series(
   id integer primary key,
+  author_id integer,
   title text,
-  author text,
-  genre text
+  subgenre_id text
 );
 
 create table subgenres(
