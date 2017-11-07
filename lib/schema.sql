@@ -12,7 +12,7 @@ create table series(
   genre text
 );
 
-create table Sub-Genres(
+create table subgenres(
   id integer primary key,
   name text
 );
