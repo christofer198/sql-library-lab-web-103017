@@ -6,12 +6,11 @@ create table characters(
 );
 
 create table series(
-  author_id integer,
-  title text,
-  subgenre_id integer,
-  id integer primary key
-
-);
+  id INTEGER PRIMARY KEY,
+         title TEXT,
+         author_id INTEGER,
+         subgenre_id INTEGER
+         );
 
 create table subgenres(
   id integer primary key,
