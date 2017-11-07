@@ -6,7 +6,7 @@ create table characters(
 );
 
 create table series(
-  id primary key,
+  id integer primary key,
   author_id integer,
   title text,
   subgenre_id integer
