@@ -1,7 +1,7 @@
 create table characters(
   id integer primary key,
   name text,
-  motto text, 
+  motto text,
   species text
 );
 
@@ -9,7 +9,7 @@ create table series(
   id integer primary key,
   title text,
   author text,
-  genre text  
+  genre text
 );
 
 create table Sub-Genres(
